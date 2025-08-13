@@ -123,10 +123,10 @@ function resetSelection() {
             </div>
 
             <div>
-              <el-icon class="arrowStyle" @click="selectDate('next-year')">
+              <el-icon class="arrowStyle" @click="selectDate('next-month')">
                 <ArrowRightBold />
               </el-icon>
-              <el-icon class="arrowStyle" @click="selectDate('next-month')">
+              <el-icon class="arrowStyle" @click="selectDate('next-year')">
                 <DArrowRight />
               </el-icon>
             </div>
